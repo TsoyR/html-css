@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #020a18;
+}
+
+.main {
+  width: 1146px;
+  margin: 0 auto;
+  margin-bottom: 221px;
+  padding-top: 157px;
+  padding-left: 387px;
+  padding-right: 387px;
+}
+.container {
+  padding-top: 157px;
+  margin-bottom: 286px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-left {
+  margin-right: 68px;
+}
+.title_block {
+  width: 484px;
+  margin-bottom: 30px;
+}
+.title {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 130%; /* 52px */
+}
+
+.dsc_block {
+  margin-bottom: 50px;
+  width: 460px;
+}
+.dsc,
+.dsc2 {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 160%; /* 25.6px */
+  opacity: 0.7;
+}
+
+.wrap_title3 {
+  width: 548px;
+  margin-bottom: 40px;
+}
+.wrap_p {
+  margin-bottom: 20px;
+  width: 460px;
+}
+
+.main-link {
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  background: #3a68b8;
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.container_row_1 {
+  margin-bottom: 30px;
+  width: 1146px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.column,
+.row1,
+.row2 {
+  width: 362px;
+  height: 389px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #132035;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.img {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+
+.title_block2 {
+  width: 302px;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.title2 {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 125%;
+  opacity: 0.7;
+}
+
+.title3 {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 52px */
+}
+
+.img1 {
+  margin-bottom: 30px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.container_row_2 {
+  margin-bottom: 221px;
+  column-gap: 30px;
+}
+
+.column_left {
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 754px;
+  height: 808px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #132035;
+}
+
+.img2 {
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 60px;
+}
+.title_block3 {
+  text-align: center;
+  width: 694px;
+  padding: 0, 30, 0, 30;
+  margin-bottom: 60px;
+}
+
+.dsc_block3 {
+  width: 694px;
+  margin-bottom: 144px;
+  text-align: center;
+}
+
+flex2 {
+  flex-direction: column;
+}
+
+.title_block4 {
+  width: 302px;
+}
+
+.row1 {
+  margin-bottom: 30px;
+}
+
+.dsc_block2 {
+  margin-bottom: 30px;
+  width: 302px;
+}
+
+.column_right3 {
+  width: 573px;
+  height: 492px;
+  flex-shrink: 0;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 48px;
+  padding-bottom: 46.11px;
+  width: 1146px;
+  padding-right: 387px;
+  padding-left: 388px;
+  width: 1146px;
+  column-gap: 30.18px;
+}
+
+.logos_title {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+
+.about_store {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: normal;
+  opacity: 0.6;
+  width: 261px;
+}
+
+.text {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.block_info {
+  display: flex;
+  width: 362px;
+  height: 103.889px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex-shrink: 0;
+}
+
+.info_text {
+  width: 209.042px;
+}
+
+.info_contact {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 9px;
+}
+
+.text2 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: normal;
+  opacity: 0.6;
+  width: 261px;
+}
+
+.footer {
+  width: 1921px;
+  height: 250px;
+  flex-shrink: 0;
+}
+.link {
+  margin-top: 24px;
+}
