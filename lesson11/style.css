@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+
+.top {
+  width: 1600px;
+}
+
+.header {
+  display: flex;
+  background-color: #222;
+  height: 75px;
+}
+.top_content {
+  background-color: #f1e4e6;
+}
+
+.img1 {
+  padding-left: 231px;
+  padding-top: 18px;
+  padding-bottom: 19px;
+}
+.img2 {
+  margin-left: 41px;
+  padding-top: 28px;
+  padding-bottom: 20px;
+}
+.img3 {
+  padding-top: 26px;
+  padding-bottom: 20px;
+  margin-left: 859px;
+  padding-right: 240px;
+}
+
+.top_content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+.img4 {
+  margin-left: 63px;
+  margin-right: 16px;
+  padding-bottom: 382px;
+  padding-top: 289px;
+}
+.top_text {
+  padding-top: 290px;
+  padding-bottom: 381px;
+  color: #222;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  grid-template-rows: span 3;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 96px;
+  margin-top: 65px;
+  padding-left: 230px;
+  padding-right: 230px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.title {
+  color: #222;
+  font-family: Lato;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.dsc {
+  color: #9f9f9f;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 6px;
+}
+.section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.products-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  grid-template-rows: repeat(2, 581px);
+  gap: 30px;
+  row-gap: 25px;
+  justify-items: center;
+}
+
+.product-header {
+  color: #000;
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.product-dsc {
+  color: #5d5d5d;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.price {
+  color: #f16d7f;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
