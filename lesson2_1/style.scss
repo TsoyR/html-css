@@ -105,6 +105,15 @@ a {
   &__option {
     @include flexPosition(center);
     margin-bottom: 48px;
+    gap: 48px;
+    .option {
+      @include fontStyle(#6f6e6e, 14px, 400);
+      list-style-type: none;
+    }
+    .option::after {
+      content: url(img/Vector.png);
+      margin-left: 9px;
+    }
   }
   &__add {
     width: 212px;

@@ -315,6 +315,19 @@ a {
   flex-direction: none;
   flex-wrap: nowrap;
   margin-bottom: 48px;
+  gap: 48px;
+}
+.info_product__option .option {
+  color: #6f6e6e;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  list-style-type: none;
+}
+.info_product__option .option::after {
+  content: url(img/Vector.png);
+  margin-left: 9px;
 }
 .info_product__add {
   width: 212px;
