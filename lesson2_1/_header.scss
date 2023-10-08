@@ -1,0 +1,17 @@
+.header {
+  height: 75px;
+  background-color: #222;
+  @include flexPosition(space-between, row, wrap);
+  align-items: center;
+
+  &__left {
+    display: flex;
+    align-items: center;
+    gap: 41px;
+  }
+  &__right {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+  }
+}

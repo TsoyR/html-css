@@ -1,0 +1,123 @@
+@import 'vars';
+@import 'mixins';
+@import 'base';
+@import 'header';
+@import 'product';
+@import 'subscribe';
+@import 'footer';
+
+a {
+  text-decoration: none;
+}
+
+.top_head {
+  @include flexPosition(space-between);
+  padding-top: 59px;
+  padding-bottom: 60px;
+  background-color: #f8f3f4;
+
+  &__link {
+    @include fontStyle(#f16d7f, 24px, 400);
+  }
+}
+.breadcrumbs__link {
+  @include fontStyle(#636363, 14px, 300);
+}
+
+.breadcrumbs__link__new {
+  @include fontStyle(#f16d7f, 14px, 700);
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+}
+.carousel-item {
+  width: 100%;
+  display: none;
+  background-color: #f7f7f7;
+}
+
+.d-block {
+  margin: auto;
+  padding-top: 11px;
+  padding-bottom: 42px;
+}
+.carousel-control-prev-icon {
+  background-image: url(img/dashicons_arrow-left-alt2.png) !important;
+}
+.carousel-control-next-icon:hover {
+  background-image: url(img/dashicons_arrow-right-alt2.png) !important;
+}
+
+.info_product {
+  @include flexPosition(center);
+  text-align: center;
+  position: relative;
+  margin-bottom: 665px;
+
+  &__block {
+    top: -67px;
+    padding-bottom: 64px;
+    position: absolute;
+    z-index: 10;
+    border: 1px solid #eaeaea;
+    width: 1140px;
+    height: 600.177px;
+    background-color: white;
+  }
+
+  &__collection {
+    @include fontStyle(#f16d7f, 14px, 300);
+    padding-top: 64px;
+    margin-bottom: 14px;
+  }
+  &__devider_1 {
+    width: 63px;
+    height: 3.025px;
+    color: #ef5b70;
+    text-align: center;
+    margin-bottom: 12px;
+    margin: auto;
+  }
+  &__name {
+    @include fontStyle(#4d4d4d, 18px, 300);
+    margin-bottom: 48px;
+    margin-top: 12px;
+  }
+  &__subscription {
+    @include fontStyle(#5e5e5e, 14px, 300);
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  &__price {
+    @include fontStyle(#ef5b70, 24px, 300);
+  }
+  &__devider_2 {
+    margin-bottom: 65px;
+    width: 641px;
+    stroke-width: 1px;
+    stroke: #eaeaea;
+    margin: auto;
+    margin-top: 65px;
+    margin-bottom: 65px;
+  }
+  &__option {
+    @include flexPosition(center);
+    margin-bottom: 48px;
+  }
+  &__add {
+    width: 212px;
+    height: 48.406px;
+    border: 1px solid #ff6a6a;
+    .cart_name {
+      @include fontStyle(#f26376, 16px, 400);
+    }
+    .cart_img {
+      color: #ef5b70;
+      width: 26.012px;
+      height: 24.203px;
+      margin-right: 22px;
+    }
+  }
+}
