@@ -1,0 +1,35 @@
+.product {
+  gap: 30px;
+  margin-bottom: 128px;
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: repeat(3, 33%);
+
+  &__div__img1 {
+    background: transparent url(img/bg-img.png) no-repeat;
+    width: 360px;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    padding-top: 9px;
+  }
+  &__div__img2 {
+    background: transparent url(img/item2.png) no-repeat;
+    position: absolute;
+    width: 141.943px;
+    height: 400px;
+  }
+
+  &__link__header {
+    @include fontStyle(#000, 13px, 400);
+    margin-top: 24px;
+    margin-bottom: 16px;
+  }
+  &__link__dsc {
+    @include fontStyle(#5d5d5d, 14px, 300);
+    margin-bottom: 16px;
+  }
+  &__link__price {
+    @include fontStyle(#f16d7f, 16px, 400);
+  }
+}
