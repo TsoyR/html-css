@@ -5,7 +5,6 @@
   min-height: 341px;
   background-color: #222224;
   grid-column: 30px;
-  margin-bottom: 97px;
   gap: 30px;
   &__item {
     @include flexPosition(center, column, wrap);

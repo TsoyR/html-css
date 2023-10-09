@@ -141,7 +141,6 @@ a {
   min-height: 341px;
   background-color: #222224;
   grid-column: 30px;
-  margin-bottom: 97px;
   gap: 30px;
 }
 .advantages__item {
@@ -364,7 +363,7 @@ a {
   background: #fff;
   position: absolute;
 }
-.filter__menu__link[open] summary {
+.filter__menu__link[open] {
   color: #ef5b70;
 }
 .filter__menu__link:hover {
