@@ -7,6 +7,15 @@ a {
   text-decoration: none !important;
 }
 
+a:hover {
+  color: red;
+}
+
+img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
 .center {
   padding-left: calc(50% - 570px);
   padding-right: calc(50% - 570px);
@@ -34,6 +43,9 @@ a {
 .header__checkbox {
   position: absolute;
   display: none;
+}
+.header__link-site:hover {
+  transform: scale(1.2);
 }
 
 #header__check:checked ~ .mobile-menu {
@@ -176,11 +188,15 @@ a {
 }
 
 .subscribe {
-  background-image: url(img/Rectangle\ 26.png);
+  background-image: url(img/Layer\ 41.png);
+  background-color: rgba(244, 244, 244, 0.7);
+  background-blend-mode: overlay;
+  min-height: 448px;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
   flex-wrap: nowrap;
+  background-size: cover;
   gap: 327px;
 }
 .subscribe__left {
@@ -238,7 +254,6 @@ a {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
   width: 256px;
-  text-align: center;
 }
 .subscribe__right__form .submit-email {
   border-top-right-radius: 50px;
@@ -272,6 +287,10 @@ a {
   height: 32px;
   display: flex;
 }
+.footer .icon__link__block:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
 .footer .brand {
   margin-top: 30px;
 }
@@ -304,6 +323,9 @@ a {
   line-height: normal;
 }
 
+.breadcrumbs a:not(:last-child)::after {
+  content: " /";
+}
 .breadcrumbs__link {
   color: #636363;
   font-size: 14px;
@@ -311,7 +333,6 @@ a {
   font-weight: 300;
   line-height: normal;
 }
-
 .breadcrumbs__link__new {
   color: #f16d7f;
   font-size: 14px;
@@ -340,6 +361,10 @@ a {
   content: url(img/Vector.png);
   margin-left: 10px;
 }
+.filter__name:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
 .filter__title::after {
   content: url(img/filter_icon.png);
 }
@@ -362,9 +387,12 @@ a {
   z-index: 10;
   background: #fff;
   position: absolute;
+  padding-top: 13px;
+  padding-left: 16px;
 }
 .filter__menu__link[open] {
   color: #ef5b70;
+  box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
 }
 .filter__menu__link:hover {
   color: #ef5b70;
@@ -380,6 +408,7 @@ a {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  margin-bottom: 18px;
 }
 .category[open] summary {
   color: #ef5b70;
@@ -398,6 +427,7 @@ a {
   flex-wrap: nowrap;
   list-style: none;
   padding: 24px 17px 6px;
+  gap: 11px;
 }
 .category__list a {
   color: #6f6e6e;
@@ -405,6 +435,14 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+.category__list a:hover {
+  color: red;
+}
+
+.category__name:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 
 .size_box {

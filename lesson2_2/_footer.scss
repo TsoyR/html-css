@@ -16,6 +16,11 @@
     display: flex;
   }
 
+  .icon__link__block:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+  }
+
   .brand {
     margin-top: 30px;
     .brand-text {
