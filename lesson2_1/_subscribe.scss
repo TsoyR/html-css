@@ -1,6 +1,10 @@
 .subscribe {
-  background-image: url(img/Rectangle\ 26.png);
+  background-image: url(img/Layer\ 41.png);
+  background-color: rgba(244, 244, 244, 0.7);
+  background-blend-mode: overlay;
+  min-height: 448px;
   @include flexPosition(space-around, row);
+  background-size: cover;
   gap: 327px;
   &__left {
     @include flexPosition(center, column);

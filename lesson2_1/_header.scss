@@ -9,6 +9,11 @@
     align-items: center;
     gap: 41px;
   }
+
+  &__left:hover {
+    .img {
+    }
+  }
   &__right {
     display: flex;
     align-items: center;
