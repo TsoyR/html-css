@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     gap: 40px;
+    padding-top: 96px;
   }
 
   &-product {
@@ -51,7 +52,7 @@
 
   &-buttons {
     @include flexPosition(space-between, row);
-    margin-top: 72px;
+    margin-top: 32px;
   }
   &-btn {
     @include fontStyle(#000, 14px, 300);
@@ -69,6 +70,7 @@
     gap: 57px;
     padding-top: 17px;
     width: 360px;
+    padding-top: 152.5px;
   }
 
   &-order__form {

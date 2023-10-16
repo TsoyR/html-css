@@ -43,23 +43,23 @@ a {
   gap: 48px;
   position: relative;
 
-  &__name {
+  &-right__name {
     @include fontStyle(#6f6e6e, 14px, 400);
     list-style-type: none;
   }
-  &__name::after {
+  &-right__name::after {
     content: url(img/Vector.png);
     margin-left: 10px;
   }
-  &__name:hover {
+  &-right__name:hover {
     opacity: 0.5;
     filter: alpha(opacity=50);
   }
 
-  &__title::after {
+  &-left__title::after {
     content: url(img/filter_icon.png);
   }
-  &__title {
+  &-left__title {
     list-style-type: none;
     width: 340px;
     display: flex;
@@ -67,10 +67,10 @@ a {
     margin-bottom: 38px;
   }
 
-  &__menu__link__box {
+  &-left__box {
     position: relative;
   }
-  &__menu__link {
+  &-left__menu {
     @include fontStyle(#000, 14px, 600);
     z-index: 10;
     background: #fff;
@@ -87,7 +87,7 @@ a {
     color: #ef5b70;
   }
 
-  &__name__box {
+  &-right__box {
     display: flex;
     gap: 48px;
   }
@@ -129,7 +129,7 @@ a {
   filter: alpha(opacity=50);
 }
 
-.size_box {
+.size-box {
   background: #fff;
   box-shadow: 6px 4px 35px 0px rgba(0, 0, 0, 0.21);
   position: absolute;
@@ -138,7 +138,7 @@ a {
   z-index: 10;
   padding: 9px;
 
-  &-item {
+  &__item {
     display: flex;
     gap: 10px;
   }
