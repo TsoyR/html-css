@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Lato sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: red;
+}
+
+img:hover {
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+
+.center {
+  padding-left: calc(50% - $widthContent/2);
+  padding-right: calc(50% - $widthContent/2);
+}
