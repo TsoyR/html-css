@@ -1,0 +1,29 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 95px;
+
+  .browse {
+    border: 1px solid #ff6a6a;
+    background-color: #fff;
+    width: 212px;
+    height: 48px;
+    .all_product {
+      @include fontStyle(#f26376, 16px, 400);
+    }
+  }
+}
+
+.product-top {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 48px;
+  &__title {
+    @include fontStyle(#222, 30px, 400);
+  }
+  &__subtitle {
+    @include fontStyle(#9f9f9f, 14px, 400);
+  }
+}

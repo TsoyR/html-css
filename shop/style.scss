@@ -1,0 +1,48 @@
+@import 'vars';
+@import 'mixins';
+@import 'base';
+@import 'header';
+@import 'filter';
+@import 'carousel';
+@import 'promo';
+@import 'sale';
+@import 'info-product';
+@import 'index';
+@import 'registration';
+@import 'advantages';
+@import 'pagination';
+@import 'cart';
+@import 'product';
+@import 'subscribe';
+@import 'footer';
+@import 'media';
+
+a {
+  text-decoration: none;
+}
+
+.top_head {
+  @include flexPosition(space-between);
+  padding-top: 59px;
+  padding-bottom: 60px;
+  background-color: #f8f3f4;
+  
+
+  &__link {
+    @include fontStyle(#f16d7f, 24px, 400);
+  }
+}
+
+.breadcrumbs {
+  a:not(:last-child)::after {
+    content: ' /';
+  }
+
+  &__link {
+    @include fontStyle(#636363, 14px, 300);
+  }
+
+  &__link__new {
+    @include fontStyle(#f16d7f, 14px, 700);
+  }
+}

@@ -1,0 +1,28 @@
+.pagination {
+  @include flexPosition(center);
+  margin-bottom: 96.5px;
+  gap: 17px;
+
+  &__left__arrow {
+    border: none;
+    background-color: #fff;
+  }
+  &__right__arrow {
+    border: none;
+    background-color: #fff;
+  }
+
+  &__num__box {
+    @include flexPosition();
+    text-align: center;
+    gap: 15px;
+  }
+
+  &__num {
+    @include fontStyle(#c4c4c4, 16px, 300);
+  }
+
+  &__num__box a:hover {
+    background-color: #f4f4f4b2;
+  }
+}

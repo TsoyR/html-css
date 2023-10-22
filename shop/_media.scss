@@ -1,0 +1,107 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .center {
+    padding-left: calc(50vw - 368px);
+    padding-right: calc(50vw - 368px);
+  }
+  .header {
+    min-height: 74px;
+    &__left {
+      padding-left: 32px;
+    }
+    &__right {
+      padding-right: 18px;
+    }
+  }
+
+  .filter {
+    gap: 200px;
+    &__menu__link {
+      padding-left: 0px;
+    }
+  }
+
+  .promo {
+    max-height: 368px;
+    img {
+      max-height: 368px;
+    }
+
+    &__info {
+      min-width: 283px;
+      padding-left: 33.57px;
+    }
+    &__title {
+      font-size: 44px;
+    }
+    &__heading {
+      font-size: 24px;
+    }
+  }
+  .sale {
+    gap: 19px;
+    &__item {
+      img {
+        max-height: 167px;
+      }
+    }
+    &__item_big {
+      img {
+        max-height: 116.043px;
+      }
+    }
+  }
+  .product {
+    gap: 16px;
+    margin-bottom: 128px;
+    &__items:last-child {
+      display: none;
+    }
+  }
+
+  .btn {
+    margin-bottom: 64px;
+  }
+  .advantages {
+    flex-direction: column;
+    align-items: center;
+    gap: 49px;
+    padding-top: 48px;
+    padding-bottom: 64px;
+  }
+  .subscribe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 48px;
+    padding-top: 48px;
+    padding-bottom: 140px;
+
+    &-left {
+      padding-top: 64px;
+    }
+    &-right {
+      padding-top: 0px;
+    }
+  }
+  .registration {
+    gap: 22px;
+  }
+  .registration-right {
+    &__title,
+    &__desc,
+    &__list {
+      font-size: 16px;
+    }
+  }
+  .cart {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 64px;
+
+    &-right {
+      flex-direction: row;
+      gap: 15px;
+      padding-top: 0px;
+    }
+  }
+}
