@@ -19,6 +19,10 @@
   .icon__link__block:hover {
     opacity: 0.5;
     filter: alpha(opacity=50);
+    background-color: #f16d7f;
+  }
+  .icon___link__block:hover svg > path {
+    fill: #fff;
   }
 
   .brand {

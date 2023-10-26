@@ -12,13 +12,40 @@
     width: 360px;
   }
   &__view {
+    background-color: #f7e4e2;
     position: relative;
     width: 360px;
     height: 420px;
     display: flex;
     justify-content: center;
     align-items: center;
+
+    &:hover {
+      background-color: rgba(58, 56, 56, 0.86);
+      .product__button {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid #fff;
+        background: none;
+        min-width: 139px;
+        min-height: 44px;
+      }
+    }
   }
+  &__button {
+    display: none;
+    position: absolute;
+    @include fontStyle(#fff, 14px, 400);
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.05);
+    }
+    &:active {
+      transform: translateY(2px);
+    }
+  }
+
   &__img {
     position: absolute;
   }

@@ -15,9 +15,6 @@
 
   .filter {
     gap: 200px;
-    &__menu__link {
-      padding-left: 0px;
-    }
   }
 
   .promo {
@@ -103,5 +100,145 @@
       gap: 15px;
       padding-top: 0px;
     }
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  .promo {
+    &__content {
+      min-width: 375px;
+      min-height: 363px;
+      padding-left: 56px;
+      padding-right: 56px;
+    }
+    &__title {
+      font-size: 38px;
+    }
+    &__heading {
+      font-size: 20px;
+    }
+  }
+
+  .promo__img {
+    display: none;
+  }
+
+  .sale__item {
+    max-width: 343px;
+    max-height: 243px;
+  }
+
+  .sale__item_big {
+    max-width: 343.262px;
+    max-height: 111px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .center {
+    padding-left: calc(50vw - 171.5px);
+    padding-right: calc(50vw - 171.5px);
+  }
+  .header__link-site {
+    display: none;
+  }
+  .top_head {
+    flex-direction: column;
+    text-align: center;
+    gap: 32px;
+  }
+
+  .product {
+    gap: 16px;
+  }
+
+  .product__items {
+    max-width: 359px;
+    max-height: 579px;
+    flex-direction: row;
+  }
+  .advantages {
+    flex-direction: column;
+    padding-top: 48px;
+    padding-bottom: 81px;
+  }
+  .registration {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .subscribe {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 59px;
+
+    &-left {
+      padding-top: 64px;
+    }
+    &-right {
+      padding-top: 0px;
+      padding-bottom: 109px;
+    }
+  }
+  .footer {
+    flex-direction: column-reverse;
+    align-items: center;
+    min-height: 143px;
+  }
+  .cart {
+    flex-direction: column;
+    gap: 48px;
+  }
+  .cart-right {
+    width: 359px;
+    padding-top: 0px;
+  }
+  .cart-product {
+    img {
+      max-width: 143px;
+      max-height: 188px;
+    }
+    &__item {
+      font-size: 14px;
+      &_input input {
+        font-size: 10px;
+        width: 24px;
+        height: 15px;
+      }
+    }
+    &__title {
+      font-size: 16px;
+    }
+    &__price {
+      font-size: 16px;
+    }
+    &__dsc {
+      max-width: 214px;
+      max-height: 188px;
+      padding-top: 13px;
+      padding-bottom: 38px;
+    }
+    &__dsc::before {
+      right: -30px;
+      top: 12px;
+    }
+  }
+  .cart-buttons {
+    gap: 9px;
+  }
+
+  .carousel-inner {
+    width: 375px;
+    img {
+      width: 375px;
+    }
+  }
+
+  .info_product__block {
+    max-width: 375px;
+  }
+  .info_product__devider_2 {
+    max-width: 175px;
   }
 }

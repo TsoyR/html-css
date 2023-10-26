@@ -45,6 +45,7 @@
   box-sizing: border-box;
   &__heading {
     @include fontStyle(#000, 14px, 700);
+    margin-bottom: 24px;
   }
   &__title {
     @include fontStyle(#f16d7f, 14px, 400, $line-height: 17px);
